@@ -3,7 +3,8 @@ function checkFifty(a, b) {
     // 1. Is 'a' 50? 
     // OR 2. Is 'b' 50? 
     // OR 3. Is their sum (a + b) 50?
-    if (a === 50 || b === 50 || (a + b) === 50) {
+    if (a === 50 |b === 50 || 
+         (a + b) === 50) {
         return true;
     } else {
         return false;
