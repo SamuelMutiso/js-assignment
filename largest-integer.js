@@ -1,8 +1,12 @@
-let num1 = 15;
-let num2 = 25;
-
-if (num1 > num2) {
-    console.log(num1);
-} else {
-    console.log(num2);
+// Define a function that takes two parameters (a and b)
+function findLargest(a, b) {
+    if (a > b) {
+        return a; // If a is bigger, send a back
+    } else {
+        return b; // Otherwise, send b back
+    }
 }
+
+// Call the function and display the result in the terminal
+console.log(findLargest(45, 87)); 
+console.log(findLargest(100, 20));
